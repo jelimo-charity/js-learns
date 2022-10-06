@@ -5,6 +5,7 @@
 //           -   SUBTRACTION
 //           /   DIVISION
 //           *   MULTIPLICATION
+//            %  MODULUS
 
 //  2. Comparison operators
 
@@ -23,6 +24,7 @@
 
 // EXAMPLE;
 
-console.log(2==3);
+console.log(2==3);  //false
+//etc
 
 
