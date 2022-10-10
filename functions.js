@@ -14,10 +14,10 @@ How to declare/build a function;
     FUNCTION RETURN;
         When javascript reaches a return statement it stops executing
 */
-             function funtion_name(){
+    //         function funtion_name(){
                 //code here
-             }
-function greet(firstName){
+    //         }
+/*function greet(firstName){
     console.log('Hello'+  ' ' + firstName )
 }
 greet('James');
@@ -37,6 +37,12 @@ function sum(a,b){
     b=2;
     return a+b;
 }
-
+*/
+function sub(c,d){
+    c=3;
+    d=9;
+    e=c*d;
+}
+sub();
 
           

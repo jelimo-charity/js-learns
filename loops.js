@@ -16,7 +16,7 @@
             i=i+1;
         }    
 
-        var age=20;
+       var age=20;
         while(age>0){
             console.log(age)
             age=age-1;
@@ -32,7 +32,7 @@
         for(var i=0; i<=20; i++){
             console.log(i)
 
-        }
+       }
         console.log('HAPPY NEW YEAR!!')
 
 /*  3. NESTED LOOPS >>>> used when you need automated repetition of code
@@ -41,7 +41,7 @@
              i-3;     >>>   specify the condition
              i++/i--  >>>   increment/decrement the counter
 */
-        for (var year=2020; year<=2025; year++ ){
+    /*    for (var year=2020; year<=2025; year++ ){
             console.log(year)
             for (var month=5; month<=12; month++){
                 console.log('----' +month)
@@ -53,4 +53,4 @@
             for(var mark_range=50; mark_range<=70;mark_range++){
                 console.log('marks range ----'+ mark_range)
             }
-        }
+        }  */
