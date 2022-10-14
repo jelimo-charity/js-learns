@@ -4,7 +4,7 @@ When writing FP code, we keep data and functionality separate and pass
  data into functions only when we want something computed.
 
   
-
+git
 */
 var currenyOne=200;
 var currenyTw0=0;
