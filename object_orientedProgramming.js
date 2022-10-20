@@ -12,6 +12,12 @@
    grouped in meaningful objects.
 
 
+   >>BENEFITS OF OOP
+         >Allows you to write modular code
+         >Makes your code more flexible
+         >Allows you to reuse code
+
+
 
 
 */
@@ -46,3 +52,38 @@ console.log(topay);
         console.log(totalpay);
     }
  }
+
+
+ /*     
+   >>PRINCIPLES OF OOP
+        >Encapsulation
+        >Polymorphism
+        >Abstraction
+        >Inheritance
+
+    
+
+    */
+
+/* Objects exist in hierarcha structure; 
+        Meaning that the original base or super class for everything is the Object class, 
+        all objects derive from this class. This allows us to utilize the Object.create() method. 
+        to create or instansiate objects of our classes. 
+
+ */
+// FOR EXAMPLE:
+
+
+class Animal { /* ...class code here... */ }
+
+var myDog = Object.create(Animal)
+
+console.log (Animal)
+
+// Another way of creating objects from classes is using new keyword i.e.
+
+class Car{/*...code here...*/}
+
+var myToyota = new Car()
+
+console.log(Car)
