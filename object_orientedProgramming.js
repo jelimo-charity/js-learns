@@ -1,4 +1,4 @@
-/* OBJECT ORIENTENTED PROGRAMMING (OOP)
+/* OBJECT ORIENTED PROGRAMMING (OOP)
  we group data and functionality as properties and methods inside objects.
 
 
@@ -65,7 +65,7 @@ console.log(topay);
 
     */
 
-/* Objects exist in hierarcha structure; 
+/* Objects exist in hierarchal structure; 
         Meaning that the original base or super class for everything is the Object class, 
         all objects derive from this class. This allows us to utilize the Object.create() method. 
         to create or instansiate objects of our classes. 
