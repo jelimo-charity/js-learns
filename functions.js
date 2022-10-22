@@ -17,7 +17,7 @@ How to declare/build a function;
     //         function funtion_name(){
                 //code here
     //         }
-/*function greet(firstName){
+function greet(firstName){
     console.log('Hello'+  ' ' + firstName )
 }
 greet('James');
@@ -35,14 +35,18 @@ adds();
 function sum(a,b){
     a=9;
     b=2;
-    return a+b;
+    c=a+b;
+
+    console.log(c)
+ 
 }
-*/
-function sub(c,d){
+sum();
+/*function sub(c,d){
     c=3;
     d=9;
     e=c*d;
 }
 sub();
+*/
 
           

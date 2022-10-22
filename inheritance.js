@@ -14,3 +14,8 @@ I can use the extends keyword, as in class B extends A.
 class Animal{/*...code here...*/}
 class Bird extends Animal {/*...code here...*/}
 class Eagle extends Bird {/*...code here...*/}
+
+
+class Student{}
+class Course extends Student{}
+class Units extends Course{}

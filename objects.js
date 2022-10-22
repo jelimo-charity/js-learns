@@ -40,3 +40,14 @@ car.color= 'white';
 car.speed= '100km/hr';
 console.log(car);
 
+
+var courses = {
+   duration: '3hours',
+   lecturer: 'Dr. Onyango',
+   venue: 'JSM 405',
+   studentsNo: 55,
+   availability: undefined,
+
+}
+console.log(courses);
+console.log(courses.duration);

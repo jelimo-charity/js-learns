@@ -36,3 +36,33 @@ var h = 2;
 var distance = getDistance(mph, h);
 
 console.log(distance);
+
+
+function sumAge(p1,p2) {
+    return p1 + p2;
+}
+var Jane = 21;
+var Joe = 20;
+
+var sum = sumAge(Jane,Joe);
+console.log(sum);
+
+
+function getPrice(price,number){
+    return price*number;
+}
+var cost = 150;
+var quantity = 20;
+
+var totalCost = getPrice(cost,quantity);
+console.log(totalCost)
+
+
+function subs(output,input){
+    return output-input;
+}
+var en1 = 3890;
+var en2 = 6743;
+
+var diff = subs(en1,en2);
+console.log(diff)
