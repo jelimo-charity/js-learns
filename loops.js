@@ -9,7 +9,7 @@
              i-3;     >>>   specify the condition
              i++/i--  >>>   increment/decrement the counter
 */
-        var i=1;
+    /*    var i=1;
 
         while(i<5) {
             console.log(i);
@@ -27,13 +27,13 @@
             var i=0; >>>   set the value  
             i-3;     >>>   specify the condition
             i++/i--  >>>   increment/decrement the counter
-*/
+*//*
         
         for(var i=0; i<=20; i++){
             console.log(i)
 
        }
-        console.log('HAPPY NEW YEAR!!')
+        console.log('HAPPY NEW YEAR!!')        */
 
 /*  3. NESTED LOOPS >>>> used when you need automated repetition of code
         
@@ -54,3 +54,16 @@
                 console.log('marks range ----'+ mark_range)
             }
         }  */
+
+
+let age = 7;
+while(age){
+    alert(age);
+    age--;
+}
+
+let i = 3;
+while (i) { // when i becomes 0, the condition becomes falsy, and the loop stops
+  alert( i );
+  i--;
+}
